@@ -20,7 +20,7 @@ const client = new Client({
 const app = express();
 const port = 3000;
 app.get('/', (req, res) => {
-  res.send('YaY Your Bot Status Changed✨');
+  res.send('Yosup BOT made by Yosup');
 });
 app.listen(port, () => {
   console.log(`🔗 Made by Yosup: http://localhost:${port}`);
@@ -28,7 +28,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Remove some anti-mids","Midding..."];
+const statusMessages = ["Remove some anti-mids","Midding...","Yosup BOT by Yosup"];
 
 
 let currentIndex = 0;
@@ -70,8 +70,8 @@ function updateStatusAndSendMessages() {
 }
 
 client.once('ready', () => {
-  console.log(`\x1b[36m%s\x1b[0m`, `|     Yosup Bot is ready as ${client.user.tag}`);
-  console.log(`\x1b[36m%s\x1b[0m`, `|    Midding console.log`);
+  console.log(`\x1b[36m%s\x1b[0m`, `|    Yosup Bot is ready as ${client.user.tag}`);
+  console.log(`\x1b[36m%s\x1b[0m`, `|    Midding Discord...`);
   console.log(`\x1b[36m%s\x1b[0m`, `|    Midded Discord!`);
   updateStatusAndSendMessages();
 
