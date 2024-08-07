@@ -28,7 +28,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Clear some anti-mids","Midding...","Yosup BOT by Yosup"];
+const statusMessages = ["Clear some anti-mids...","Midding...","Yosup BOT by Yosup"];
 
 
 let currentIndex = 0;
